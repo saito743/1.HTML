@@ -3,3 +3,35 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.list-box{
+	margin: 50px auto;
+	width: 960px;
+}
+.list{
+	text-align: left;
+	padding: 20px;
+}
+.list:nth-child(odd){
+	background-color: #dcdcdc;
+}
+.color-box{
+	width: 960px;
+	margin: 50px auto;
+	text-align: center;
+}
+.color{
+	background-color: gold;
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	margin-right: 5%;
+	float: left;
+	margin-bottom: 40px;
+}
+.color:nth-child(3n){
+	margin-right: 0 ;
+}
+.color:nth-child(4n+1){
+	background-color: orange;
+}
